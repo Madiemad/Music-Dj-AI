@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./style.css">
+   
+    </head>
+    <body>
+        <div class="container">
+            <center>
+            <h1 class="bgblack">AIDEG WEB APP.</h1><h3 style="margin-top:-15px;" class="bgblack"><strong>HELLO HELLO HELLO. WELCOME TO AIDEG. THIS IS A DJ APP WITH A GENIE "NOT REALLY". MOVE YOUR HANDS TO SEE THE MAGIC.</strong></h3>
+            <div class="div_speed">
+                <img style="margin-top:-15px;" src="disk.gif" class="div_speed_img">
+                <br>
+                <h3 class="btn btn-danger" id="speed">Speed</h3>
+            </div>
+        
+            <div class="div_volume">
+                <img style="margin-top:-15px;" src="disk.gif" class="div_volume_img">
+                <br>
+                <h3 class="btn btn-danger" id="volume">Volume</h3>
+            </div>
+        
+            <br><br>
+        
+            <button onclick="play();" style="margin-top:-20px;" class="btn btn-success play_button">Play</button>
+            <button onclick="stop();" style="margin-top:-20px;" class="btn btn-danger play_button">Stop</button>
+            <button onclick="changeSong();" style="margin-top:-20px; width:auto;" class="btn btn-primary play_button">Change Song</button>
+        </center>   
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+        <script src="./source.js"></script>
+    </body>
+</html>
